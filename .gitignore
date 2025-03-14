@@ -121,3 +121,22 @@ work_dirs/
 *.pth
 *.py~
 *.sh~
+
+# Ignore compressed files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.bz2
+
+# Ignore all model weight files
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+
